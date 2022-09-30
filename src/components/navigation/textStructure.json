@@ -1,0 +1,47 @@
+{ 
+    "mainMenu": {
+        "title": "Main menu",
+        "list": [
+            {
+                "name": "Dashboard",
+                "componentName": "IconDashboardIcon",
+                "link": "dashboard"
+            },
+            {
+                "name": "Recruitment",
+                "componentName": "IconRecruitmentIcon",
+                "link": "recruitment"
+            },
+            {
+                "name": "Schedule",
+                "componentName": "IconCalendarIcon",
+                "link": "schedule"
+            },
+            {
+                "name": "Employee",
+                "componentName": "IconEmployeeIcon",
+                "link": "employee"
+            },
+            {
+                "name": "Department",
+                "componentName": "IconDepartmentIcon",
+                "link": "department"
+            }
+        ]
+    },
+    "other": {
+        "title": "Other",
+        "list": [
+            {
+                "name": "Support",
+                "componentName": "IconSupportIcon",
+                "link": "support"
+            },
+            {
+                "name": "Settings",
+                "componentName": "IconSettingsIcon",
+                "link": "settings"
+            }
+        ]
+    }
+}

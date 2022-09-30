@@ -1,0 +1,164 @@
+.h1 {
+  font-size: 20px;
+  line-height: 42px;
+
+  @include desktop {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.h2 {
+  font-size: 16px;
+  line-height: 24px;
+
+  @include desktop {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.body-small {
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.body-medium {
+  font-size: 12px;
+  line-height: 18px;
+
+  @include phone {
+    line-height: 28px;
+  }
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.body-large {
+  font-size: 16px;
+  line-height: 24px;
+
+  @include tablet {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  @include phone {
+    line-height: 21px;
+  }
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.body-regular {
+  font-size: 14px;
+  line-height: 20px;
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.body-x-large {
+  font-size: 36px;
+  line-height: 28px;
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}
+
+.body-extra-large {
+  font-size: 42px;
+  line-height: 28px;
+
+  @include desktop {
+    font-size: 48px;
+    line-height: 28px;
+  }
+
+  &--standard {
+    font-weight: 400;
+  }
+
+  &--regular {
+    font-weight: 500;
+  }
+
+  &--strong {
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,80 @@
+{
+    "topBanners": [
+        {
+            "title": "Available Position",
+            "number": 24,
+            "text": "4 Urgently needed",
+            "additionalClass": "font-color-primary",
+            "bannerBackgroundClass": "background-color-tumbleweed"
+        },
+        {
+            "title": "Job open",
+            "number": 10,
+            "text": "Active hiring",
+            "additionalClass": "font-color-royal-blue",
+            "bannerBackgroundClass": "background-color-blue"
+        },
+        {
+            "title": "New employees",
+            "number": 24,
+            "text": "4 Department",
+            "additionalClass": "font-color-pink",
+            "bannerBackgroundClass": "background-color-purple"
+        }
+    ],
+    "middleBanners": [
+        {
+            "title": "Total Employees",
+            "totalNumber": 216,
+            "menInfo": "120 Men",
+            "womanInfo": "96 Women",
+            "imgPath": "src/assets/images/first-graph.png",
+            "imgAlt": "Total new employees growth graph",
+            "additionalInfo": "+2% Past month"
+        },
+        {
+            "title": "Talent Request",
+            "totalNumber": 16,
+            "menInfo": "6 Men",
+            "womanInfo": "5 Women",
+            "imgPath": "src/assets/images/second-graph.png",
+            "imgAlt": "Talent request graph",
+            "additionalInfo": "+5% Past month"
+        }
+    ],
+    "infoBanner": {
+        "subtitle": "Recently Activity",
+        "date": "10.40 AM, Fri 10 Sept 2021",
+        "title": "You Posted a New Job",
+        "text": "Kindly check the requirements and terms of work and make sure everything is right.",
+        "footerText": "Today you makes 12 Activity",
+        "buttonText": "See All Activity"
+    },
+    "announcementBanner": {
+        "title": "Announcement",
+        "text": "See All Announcement",
+        "closeText": "Close More Announcements"
+    },
+    "upcomingBanner": {
+        "title": "Upcoming Schedule",
+        "priority": "Priority",
+        "other": "Other",
+        "buttonText": "Create a New Schedule",
+        "items": [
+            {
+                "priority": true,
+                "description": "Review candidate applications",
+                "title": "Today - 11.30 AM"
+            },
+            {
+                "other": true,
+                "description": "Interview with candidates",
+                "title": "Today - 10.30 AM"
+            },
+            {
+                "description": "Short meeting with product designer from IT Department",
+                "title": "Today - 09.15 AM"
+            }
+        ]
+    }
+}

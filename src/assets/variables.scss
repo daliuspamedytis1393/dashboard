@@ -1,0 +1,63 @@
+// main colors
+$color-black: #000000;
+$color-white: #ffffff;
+$color-primary: #ff5151;
+$color-secondary: #303030;
+
+// grey colors
+$color-grey-100: #dedede;
+$color-grey-200: #fafafa;
+$color-grey-300: #686868;
+$color-grey-400: #e0e0e0;
+$color-grey-500: #b2b2b2;
+$color-grey-600: #efefef;
+
+// blue colors
+$color-light-blue: #e8f0fb;
+$color-dark-blue: #161e54;
+$color-navy-blue: #1b204a;
+$color-royal-blue: #3786f1;
+
+// additional colors
+$color-tumbleweed: #ffefe7;
+$color-light-purple: #fdebf9;
+$color-pink: #ee61cf;
+
+// gradients
+$color-gradient-dark-blue: linear-gradient(
+    0deg,
+    rgba($color-black, 0.2),
+    rgba($color-black, 0.2)
+  ),
+  $color-dark-blue;
+
+$vertical-bar-width: 242px;
+$vertical-bar-tablet-width: 200px;
+
+//z-index
+
+$z-index: (
+  below-content: -1,
+  content: 0,
+  navigation: 1,
+);
+
+//mixins
+
+@mixin phone {
+  @media (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 700px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
